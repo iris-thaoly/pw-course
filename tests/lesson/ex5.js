@@ -1,7 +1,0 @@
-for (let i = 1; i < 101; i++) {
-    if (i % 2 === 0){
-        console.log("So " + i + " la so chan");
-    } else{
-        console.log("So " + i + " la so le");
-    }
-}
