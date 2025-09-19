@@ -57,7 +57,8 @@ console.log(`${variableName}`);
 console.log(`String ${variableName}`);  
 console.log(“Toi ten la” + variableName+ “”);
 ```
-- Object: To store a set of values ​​in the same variable or constant  
+**3. Object**  
+To store a set of values ​​in the same variable or constant  
 ```
 let/const <object_name> = {
 <property>: <value>,
@@ -72,12 +73,12 @@ eg.
 ```  
 let user = {“name”: “Alex”, “age”: 10, “email”: “alex@gmail.com”}
 const product = {
-    “name”: “Laptop”,
-    “price”: 500,
-    “isWindow”: true,
-    “manufacturer”: {
-    “name”: “Acer”,
-    “year”: 2024
+    name: “Laptop”,
+    price: 500,
+    isWindow: true,
+    manufacturer: {
+    name: “Acer”,
+    year: 2024
     }
 }
 ```
@@ -153,7 +154,7 @@ console.log(employee);
 Result:  
 `{name: 'Le Van C', department: 'HR'}`
 
-**3. Array**
+**4. Array**
 - Create array
     - Declare
     - Use
@@ -167,7 +168,16 @@ const arr = ["Thao", "Phuong", "Hien", "Hieu", "Uyen", 89, true];
 console.log("Do dai la", arr.length);
 console.log("Ten la", arr[0]);
 ```
-**4. Function**  
+To add more element into array, use `push()`
+```
+const arr = [1,2];
+arr.push(3);
+
+console.log(arr);
+// Result
+[1, 2, 3]
+```
+**5. Function**  
 Is a named and reusable piece of code that performs a specific task or calculation.
 - Declare
 ```
